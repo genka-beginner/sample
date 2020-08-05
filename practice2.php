@@ -5,9 +5,9 @@ $name ='高貫';
 //課題１
 if($name=='高貫'){
     echo "私は ${name} です";
-}else{
+    }else{
     echo "${name}ではありません";
-}
+    }
 
 echo "\n";
 
@@ -15,18 +15,17 @@ echo "\n";
 $total = 0;
 for($i=0 ; $i<=10000 ;$i++ ){
     $total +=$i; 
-}
+    }
 echo $total;
 
 echo "\n";
 
 //課題３
 $fruits = ["リンゴ","みかん","桃","ブドウ","パイナップル"];
-
-foreach($fruits as $fruit){
-    echo $fruit;
-    echo "\n";
-}
+    foreach($fruits as $fruit){
+        echo $fruit;
+        echo "\n";
+        }
 
 //課題４
 /* for文の始めの値を定義する */
@@ -40,7 +39,7 @@ for($i = $start; $i < $end; $i++){
   if($i % 5 == 0){
     echo $i;
     echo "\n";
-  }
+    }
 }
 
 
