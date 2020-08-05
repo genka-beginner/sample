@@ -74,10 +74,11 @@ $t_1 = mktime(0,0,0,8,4,2020);
 
 $t_2 = time($t_1);
 
-echo $t_2;
-echo "\n";
+echo 'UNIXタイムスタンプ' . "\n";
+echo $t_2 . "\n";
+
 //date
-echo date('y/m/d',$t_1);
+echo date('y/m/d',$t_1) . "\n";
 echo "\n";
  
  
