@@ -17,8 +17,8 @@ echo "\n";
 
 /*課題３*/
 $hello = 'Hello ';
-$name = '高貫';
-$world = 's World!';
+$name = '高貫' . '\'s';
+$world = ' World!';
 
 echo $hello . $name . $world;
 
@@ -26,9 +26,9 @@ echo "\n";
 
 /*課題４*/
 $tech_boost = 'tech';
-$boost = '_boost';
+$tech_boost .= '_boost';
 
-echo $tech_boost . $boost;
+echo $tech_boost;
 
 echo "\n";
 
